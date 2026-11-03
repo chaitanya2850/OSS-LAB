@@ -40,7 +40,7 @@ Start from the current Ubuntu kernel configuration:
 
 ```bash
 cp /boot/config-$(uname -r) .config
-make oldconfig
+make olddefconfig
 ```
 
 Optionally open the configuration menu:
