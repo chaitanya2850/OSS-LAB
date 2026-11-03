@@ -24,8 +24,7 @@ The source is available from the [official Linux Kernel
 Archives](https://www.kernel.org/).
 
 ```bash
-wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.224.tar.xz
-tar -xf linux-5.15.224.tar.xz
+git clone --depth 1 --branch v5.15.224 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git linux-5.15.224
 cd linux-5.15.224
 ```
 
